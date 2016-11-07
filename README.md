@@ -50,6 +50,7 @@ Line 5
 Line 2
 Line 9
 ```
+![](https://github.com/IAMSUPERE/LAB-08/blob/master/img/lab81.jpg)
 ###1.1.2. try…catch…finally
 ประโยค ```try…catch…finally``` ใช้สำหรับการดักจับและจัดการข้อผิดพลาดของโปรแกรม ทั้งขณะทำงาน (Run Time Process) หรือในขณะเริ่มต้นทำงาน (Init Process) โดยเราจะวางคำสั่งที่คาดการว่าจะเกิดข้อผิดพลาดขึ้นไว้ในบล็อกของ ```Try``` และวางส่วนจัดการข้อผิดพลาดไว้ในบล็อกของ ```catch``` และถ้ามีการดำเนินการใดๆ ที่ต้องทำทั้งในกรณีที่มีและไม่มีข้อผิดพลาด ก็จะใส่ไว้ในบล็อกของ ```Finally``` ในคำสั่งนี้สามารถเขียนบล็อกของ ```catch``` ได้หลายบล็อก คำสั่งนี้มีประโยชน์มากในการทำงานกับระบบอินเตอร์เน็ต โดยเฉพาะในกรณีที่การเชื่อมต่อไม่เสถียร เพราะจะช่วยป้องกันการค้างของโปรแกรมของเราขณะเรียกข้อมูลจาก network ได้
 **ตัวอย่าง** โปรแกรมที่ไม่ได้ใช้คำสั่ง ```try…catch…finally```
@@ -143,6 +144,7 @@ public class TryCatch
      }
  }
 ```
+![](https://github.com/IAMSUPERE/LAB-08/blob/master/img/lab82.jpg)
 ###2.
 ``` csharp
 using System;
@@ -157,6 +159,7 @@ public class TryCatch
      }
  }
 ```
+![](https://github.com/IAMSUPERE/LAB-08/blob/master/img/lab83.jpg)
 ###3.
 ``` csharp
 using System;
@@ -173,6 +176,7 @@ public class TryCatch
      }
  }
 ```
+![](https://github.com/IAMSUPERE/LAB-08/blob/master/img/lab84.jpg)
 ###1.1.3. คำสั่ง ```throw```
 
 คำสั่ง ```throw``` ใช้เพื่อเปลี่ยนเส้นทางการทำงานของโปรแกรมโดยเจาะจง exception เป้าหมาย
@@ -204,6 +208,14 @@ public class ExceptionLearning
 3.	FileNotFoundException
 4.	FormatException
 ```
+![](https://github.com/IAMSUPERE/LAB-08/blob/master/img/lab85.jpg)
+
+![](https://github.com/IAMSUPERE/LAB-08/blob/master/img/lab86.jpg)
+
+![](https://github.com/IAMSUPERE/LAB-08/blob/master/img/lab87.jpg)
+
+![](https://github.com/IAMSUPERE/LAB-08/blob/master/img/lab88.jpg)
+
 ```csharp
 using System;
 using System.IO;
@@ -306,6 +318,8 @@ execute next line
 1.	ถ้าค่าที่ผู้ใช้ป้อน มากกว่า ค่าที่สุ่มมาได้ ให้พิมพ์ ```“Too Hight, You loss!!”``` ออกทางหน้าจอ
 2.	ถ้าค่าที่ผู้ใช้ป้อน น้อยกว่า ค่าที่สุ่มมาได้ ให้พิมพ์ ```“Too Low, You loss!!”```ออกทางหน้าจอ
 3.	ถ้าค่าที่ผู้ใช้ป้อน เท่ากับ ค่าที่สุ่มมาได้ ให้พิมพ์ ```“Okay, You win!!”``` ออกทางหน้าจอ
+![](https://github.com/IAMSUPERE/LAB-08/blob/master/img/lab89.jpg)
+
 
 ###1.2.2.	คำสั่ง ```if…else```
 
@@ -354,6 +368,8 @@ this line is always execute
 ให้เขียนโปรแกรมสุ่มตัวเลข (จากใบงานที่ 7) แล้วใช้คำสั่ง ```if…else``` โดยมีเงื่อนไขต่อไปนี้
 
 1. ถ้าค่าที่ผู้ใช้ป้อน เท่ากับ ค่าที่สุ่มมาได้ ให้พิมพ์ ```“Hooray, You win!!”``` ออกทางหน้าจอ มิฉะนั้นให้พิมพ์คำว่า ```“Sorry, You loss!!”```
+![](https://github.com/IAMSUPERE/LAB-08/blob/master/img/lab810.jpg)
+
 
 ###1.2.3.	คำสั่ง ```if``` ซ้อนกัน (nested if)
 คำสั่ง ```if``` สามารถเขียนซ้อนกันเป็นชั้นได้ เรียกว่า nested if มีรูปแบบดังนี้
@@ -446,6 +462,8 @@ Grade C
 0-49|	F
 
 3. รูปแบบการพิมพ์คือ score: [sss] grade: [gg] เมื่อ sss คือคะแนน และ gg คือ เกรดที่ได้
+![](https://github.com/IAMSUPERE/LAB-08/blob/master/img/lab811.jpg)
+
 
 ###1.2.5. คำสั่ง ```switch```
 
@@ -511,6 +529,8 @@ Good
 Input day name : sun
 sun is Sunday, color Red
 ```
+![](https://github.com/IAMSUPERE/LAB-08/blob/master/img/lab812.jpg)
+
 **ตารางกำหนดชื่อและสีประจำวัน**
 
 Input ที่รับได้	|ชื่อวัน|	สี
